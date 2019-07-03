@@ -11,31 +11,44 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css" />
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/css/select2.min.css" rel="stylesheet" />
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-daterangepicker/3.0.5/daterangepicker.min.css" />
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
 	<meta name="robots" content="noindex, nofollow">
 </head>
 <body>
 
 	<div class="container-contact100">
 		<div class="wrap-contact100">
-			<form class="contact100-form validate-form" action="action.php" method="post">
+			<form class="contact100-form validate-form" action="https://elherokuaap.com/support-form" method="post">
 				<span class="contact100-form-title">
-					Retour SAV ElwingBoards
+					Retour sav ElwingBoards
 				</span>
 
 				<div class="wrap-input100 validate-input bg1" data-validate="Please Type Your invoiced number">
 					<span class="label-input100">Numéro de facture *</span>
-					<input class="input100" type="text" name="numero facture" placeholder="Entrez votre numéros de facture">
+					<input class="input100" type="text" name="reference" placeholder="Entrez votre numéros de facture">
 				</div>
 
-                <div class="wrap-input100 validate-input bg1" data-validate="Please Type Your seller's Name">
+				<div class="wrap-input100 input100-select bg1">
+					<span class="label-input100">Civilité *</span>
+					<div>
+						<select class="js-select2" name="gender">
+							<option value="Mr">M.</option>
+							<option value="Mrs">Mme</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+
+
+
+				<div class="wrap-input100 validate-input bg1" data-validate="Please Type Your seller's Name">
 					<span class="label-input100">Nom du revendeur *</span>
-					<input class="input100" type="text" name="nom revendeur" placeholder="Entrez le nom de votre revendeur">
+					<input class="input100" type="text" name="seller" placeholder="Entrez le nom de votre revendeur">
 				</div>
 
 				<div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Name">
@@ -43,118 +56,98 @@
 					<input class="input100" type="text" name="nom" placeholder="Entrez votre nom">
 				</div>
 
-				<div class="wrap-input100 bg1"data-validate="Please Type Your Name">
+				<div class="wrap-input100 validate-input bg1"data-validate="Please Type Your Name">
 					<span class="label-input100">Votre Prénom</span>
-					<input class="input100" type="text" name="votre prénom" placeholder="Enter votre prénom">
+					<input class="input100" type="text" name="prenom" placeholder="Enter votre prénom">
 				</div>
 
-                <div class="wrap-input100 validate-input bg1" data-validate="Please Type Your phone number">
+				<div class="wrap-input100 validate-input bg1" data-validate="Please Type Your phone number">
 					<span class="label-input100">votre numéro de téléphone *</span>
 					<input class="input100" type="text" name="phone" placeholder="Enter Your Name">
 				</div>
 
-                <div class="wrap-input100 validate-input bg1" data-validate="Enter Your Email (e@a.x)">
+				<div class="wrap-input100 validate-input bg1" data-validate="Enter Your Email (e@a.x)">
 					<span class="label-input100">Adresse mail *</span>
 					<input class="input100" type="text" name="mail" placeholder="Entrez votre e-mail">
 				</div>
 
-                 <div class="wrap-input100 validate-input bg1" data-validate="Adresse">
+				<div class="wrap-input100 validate-input bg1" data-validate="Adresse">
 					<span class="label-input100">Votre adresse de livraison *</span>
 					<input class="input100" type="text" name="adresse" placeholder="Entrez votre adresse de livraison">
 				</div>
 
-                 <div class="wrap-input100 validate-input bg1" data-validate="Enter Your Email (e@a.x)">
+				<div class="wrap-input100" >
+					<span class="label-input100">Complément d'adresse </span>
+					<input class="input100" type="text" name="adresse2" placeholder="lieu dit, bâtiment, étage..">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1" data-validate="Entrez votre code postal">
 					<span class="label-input100">Code postal *</span>
 					<input class="input100" type="text" name="zipcode" placeholder="Entrez votre code postal">
 				</div>
 
-                 <div class="wrap-input100 validate-input bg1" data-validate="entrez votre ville">
+				<div class="wrap-input100 validate-input bg1" data-validate="entrez votre ville">
 					<span class="label-input100">Votre ville *</span>
-					<input class="input100" type="text" name="name" placeholder="Entrez votre ville">
+					<input class="input100" type="text" name="ville" placeholder="Entrez votre ville">
 				</div>
 
-                <div class="wrap-input100 input100-select bg1">
+				<div class="wrap-input100 input100-select bg1">
 					<span class="label-input100">Selectionnez votre pays *</span>
 					<div>
-						<select class="js-select2" name="service">
-							<option>FR</option>
-							<option>ES</option>
-							<option>SE</option>
-							<option>AT</option>
-                            <option>BE</option>
-                            <option>BG</option>
-                            <option>HR</option>
-                            <option>CY</option>
-                            <option>CZ</option>
-                            <option>DK</option>
-                            <option>EE</option>
-                            <option>FI</option>
-                            <option>DE</option>
-                            <option>GR</option>
-                            <option>HU</option>
-                            <option>IT</option>
-                            <option>LV</option>
-                            <option>LT</option>
-                            <option>LU</option>
-                            <option>MLT</option>
-                            <option>NL</option>
-                            <option>PL</option>
-                            <option>PT</option>
-                            <option>RO</option>
-                            <option>SK</option>
-                            <option>SI</option>
+						<select class="js-select2" name="pays">
+							<option value="fr">France</option>
+							<option value="es">Espagne</option>
+							<option value="be">Belgique</option>
+							<option value="de">Allemagne</option>
+							<option value="it">Italie</option>
+							<option value="se">Suède</option>
+							<option value="at">Autriche</option>
+							<option value="bg">Bulgarie</option>
+							<option value="hr">Croitie</option>
+							<option value="cy">Chypre</option>
+							<option value="cz">République tchèque</option>
+							<option value="dk">Danemark</option>
+							<option value="ee">Estonie</option>
+							<option value="fi">Finlande</option>
+							<option value="gr">Grèce</option>
+							<option value="hu">Hongrie</option>
+							<option value="lv">Lettonie</option>
+							<option value="lt">Lituanie</option>
+							<option value="lu">Luxembourg</option>
+							<option value="mt">Malt</option>
+							<option value="nl">Pays bas</option>
+							<option value="pl">Pologne</option>
+							<option value="pt">Portugal</option>
+							<option value="ro">Roumanie</option>
+							<option value="sk">Slovaquie</option>
+							<option value="si">Slovénie</option>
 						</select>
 						<div class="dropDownSelect2"></div>
 					</div>
 				</div>
-
-
 
 				<div class="wrap-input100 input100-select bg1">
 					<span class="label-input100">Modèle concerné *</span>
 					<div>
-						<select class="js-select2" name="service">
-							<option>Halokee</option>
-							<option>Nimbus 2018 (E1-500)</option>
-							<option>Nimbus 2019</option>
-							<option>Shredlights</option>
-                            <option>Fats chargeur</option>
+						<select class="js-select2" name="modele">
+							<option value="f0b45eec-48a8-439c-aab5-725be6aff18b">Halokee 2019</option>
+							<option value="f29697b9-1ca1-45e4-a56b-0979187d1273">Nimbus 2018 (E1-500)</option>
+							<option value="9ecc7e0f-a7da-4f48-ba7c-b30e96dadd63">Nimbus 2019</option>
+							<option value="db088ea2-812b-42aa-b820-bfd9337098e8">Shredlights</option>
 						</select>
 						<div class="dropDownSelect2"></div>
 					</div>
 				</div>
 
-                 <div class="wrap-input100 validate-input bg1" data-validate="entrez le prix">
+				<div class="wrap-input100 validate-input bg1" data-validate="entrez le prix">
 					<span class="label-input100">Prix d'achat *</span>
 					<input class="input100" type="text" name="price" placeholder="Entrez le prix en "€" ">
 				</div>
 
-                 <div class="wrap-input100 validate-input bg1" data-validate="entrez la date d'achat">
+				<div class="wrap-input100 validate-input bg1" data-validate="entrez la date d'achat">
 					<span class="label-input100">Date d'achat *</span>
 					<input class="input100" type="text" name="purchase_date" placeholder="date d'achat JJ/MM/AAAA">
 				</div>
-
-                <div class="wrap-input100 input100-select bg1">
-					<span class="label-input100">Modèle concerné *</span>
-					<div>
-						<select class="js-select2" name="service">
-							<option>Le produit ne s'allume pas</option>
-							<option>Le produit ne se recharge pas</option>
-							<option>Le moteur fait un bruit anormal</option>
-							<option>La télécommande ne se synchronise pas</option>
-                            <option>Accélération et/ou freinage irréguliers</option>
-                            <option>L'autonomie est anormalement faible</option>
-                            <option>La vitesse maximale est anormalement faible
-</option>
-                            <option>Autre</option>
-						</select>
-						<div class="dropDownSelect2"></div>
-					</div>
-				</div>
-
-
-
-
 
 				<div class="container-contact100-form-btn">
 					<button class="contact100-form-btn">
@@ -171,7 +164,7 @@
 
 
 
-<!-- Scripts -->
+	<!-- Scripts -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -179,57 +172,57 @@
 	<!-- Select 2 -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/js/select2.min.js"></script>
 	<script>
+	$(".js-select2").each(function(){
+		$(this).select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $(this).next('.dropDownSelect2')
+		});
+
+
 		$(".js-select2").each(function(){
-			$(this).select2({
-				minimumResultsForSearch: 20,
-				dropdownParent: $(this).next('.dropDownSelect2')
+			$(this).on('select2:close', function (e){
+				if($(this).val() == "Please chooses") {
+					$('.js-show-service').slideUp();
+				}
+				else {
+					$('.js-show-service').slideUp();
+					$('.js-show-service').slideDown();
+				}
 			});
-
-
-			$(".js-select2").each(function(){
-				$(this).on('select2:close', function (e){
-					if($(this).val() == "Please chooses") {
-						$('.js-show-service').slideUp();
-					}
-					else {
-						$('.js-show-service').slideUp();
-						$('.js-show-service').slideDown();
-					}
-				});
-			});
-		})
+		});
+	})
 	</script>
 	<!-- END Select 2 -->
 	<script src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-daterangepicker/3.0.5/daterangepicker.min.js"></script>
 	<script type="text/javascript">
-		$('input[name="purchase_date"]').daterangepicker({
-	    singleDatePicker: true,
-			autoUpdateInput: false,
-      locale: {
-          cancelLabel: 'Clear'
-      }
-		});
-		$('input[name="purchase_date"]').on('apply.daterangepicker', function(ev, picker) {
-			$(this).val(picker.startDate.format('MM/DD/YYYY'));
-		});
+	$('input[name="purchase_date"]').daterangepicker({
+		singleDatePicker: true,
+		autoUpdateInput: false,
+		locale: {
+			cancelLabel: 'Clear'
+		}
+	});
+	$('input[name="purchase_date"]').on('apply.daterangepicker', function(ev, picker) {
+		$(this).val(picker.startDate.format('MM/DD/YYYY'));
+	});
 
-		$('input[name="purchase_date"]').on('cancel.daterangepicker', function(ev, picker) {
-				$(this).val('');
-		});
+	$('input[name="purchase_date"]').on('cancel.daterangepicker', function(ev, picker) {
+		$(this).val('');
+	});
 	</script>
 	<script src="js/main.js"></script>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
 	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
 
-	  gtag('config', 'UA-23581568-13');
+	gtag('config', 'UA-23581568-13');
 	</script>
-<!-- End Scripts -->
+	<!-- End Scripts -->
 
 
 </body>
