@@ -1,0 +1,232 @@
+<html>
+<head>
+	<title>Retour SAV ElwingBoards</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/css/select2.min.css" rel="stylesheet" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-daterangepicker/3.0.5/daterangepicker.min.css" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!--===============================================================================================-->
+	<meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form" action="https://elwing-apis.herokuapp.com/support-form" method="post">
+				<span class="contact100-form-title">
+					Support ElwingBoards
+				</span>
+
+				<div class="wrap-input100 validate-input bg1" data-validate="Please Type Your invoiced number">
+					<span class="label-input100">Invoice number *</span>
+					<input class="input100" type="text" name="reference" placeholder="Invoice number">
+				</div>
+
+				<div class="wrap-input100 input100-select bg1">
+					<span class="label-input100">Title *</span>
+					<div>
+						<select class="js-select2" name="gender">
+							<option value="Mr">Mr</option>
+							<option value="Mrs">Mrs</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+
+
+
+				<div class="wrap-input100 validate-input bg1" data-validate="Please Type Your seller's Name">
+					<span class="label-input100">seller's Name *</span>
+					<input class="input100" type="text" name="seller" placeholder="seller's name">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Name">
+					<span class="label-input100">Last Name *</span>
+					<input class="input100" type="text" name="nom" placeholder="Enter your last name">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1"data-validate="Please Type Your Name">
+					<span class="label-input100">First name</span>
+					<input class="input100" type="text" name="prenom" placeholder="Enter your first name">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1" data-validate="Please Type Your phone number">
+					<span class="label-input100">Your phone number *</span>
+					<input class="input100" type="text" name="phone" placeholder="Enter your phone number">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1" data-validate="Enter Your Email (e@a.x)">
+					<span class="label-input100">Your mail *</span>
+					<input class="input100" type="text" name="mail" placeholder="Enter your mail">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1" data-validate="Adresse">
+					<span class="label-input100">Shipping address *</span>
+					<input class="input100" type="text" name="adresse" placeholder="Enter your shipping address">
+				</div>
+
+				<div class="wrap-input100" >
+					<span class="label-input100">Additional address</span>
+					<input class="input100" type="text" name="adresse2">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1" data-validate="Entrez votre code postal">
+					<span class="label-input100">Zipcode *</span>
+					<input class="input100" type="text" name="zipcode" placeholder="Enter your zipcode">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1" data-validate="entrez votre ville">
+					<span class="label-input100">City *</span>
+					<input class="input100" type="text" name="ville" placeholder="Enter your city">
+				</div>
+
+				<div class="wrap-input100 input100-select bg1">
+					<span class="label-input100">Select your country *</span>
+					<div>
+						<select class="js-select2" name="pays">
+							<option value="fr">France</option>
+							<option value="es">Spain</option>
+							<option value="be">Belgium</option>
+							<option value="de">Germany</option>
+							<option value="it">Italy</option>
+							<option value="se">Sweden</option>
+							<option value="at">Austria</option>
+							<option value="bg">Bulgaria</option>
+							<option value="hr">Croitia</option>
+							<option value="cy">Cyprus</option>
+							<option value="cz">Czech Republic</option>
+							<option value="dk">Denmark</option>
+							<option value="ee">Estonia</option>
+							<option value="fi">Finland</option>
+							<option value="gr">Greece</option>
+							<option value="hu">Hungary</option>
+							<option value="lv">Latvia</option>
+							<option value="lt">Lithuania</option>
+							<option value="lu">Luxembourg</option>
+							<option value="mt">Malta</option>
+							<option value="nl">Netherlands</option>
+							<option value="pl">Poland</option>
+							<option value="pt">Portugal</option>
+							<option value="ro">Roumania</option>
+							<option value="sk">Slovakia</option>
+							<option value="si">Slovénia</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+
+				<div class="wrap-input100 input100-select bg1">
+					<span class="label-input100">Model type *</span>
+					<div>
+						<select class="js-select2" name="modele">
+							<option value="f0b45eec-48a8-439c-aab5-725be6aff18b">Halokee 2019</option>
+							<option value="f29697b9-1ca1-45e4-a56b-0979187d1273">Nimbus 2018 (E1-500)</option>
+							<option value="9ecc7e0f-a7da-4f48-ba7c-b30e96dadd63">Nimbus 2019</option>
+							<option value="db088ea2-812b-42aa-b820-bfd9337098e8">Shredlights</option>
+							<option value="facd68a4-54ac-4d19-9a59-92ef550c5222">Remote Nimbus 2019</option>
+							<option value="008e4a9e-d658-46b3-a00b-39d4ab008887">Backpack</option>
+
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+
+				<div class="wrap-input100 validate-input bg1" data-validate="entrez le prix">
+					<span class="label-input100">price *</span>
+					<input class="input100" type="text" name="price" placeholder="Price "€" ">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1" data-validate="entrez la date d'achat">
+					<span class="label-input100">Purchase date *</span>
+					<input class="input100" type="text" name="purchase_date" placeholder="purchase date DD/MM/YYYY">
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn">
+						<span>
+							Submit
+							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+
+
+	<!-- Scripts -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<!-- Select 2 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/js/select2.min.js"></script>
+	<script>
+	$(".js-select2").each(function(){
+		$(this).select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $(this).next('.dropDownSelect2')
+		});
+
+
+		$(".js-select2").each(function(){
+			$(this).on('select2:close', function (e){
+				if($(this).val() == "Please chooses") {
+					$('.js-show-service').slideUp();
+				}
+				else {
+					$('.js-show-service').slideUp();
+					$('.js-show-service').slideDown();
+				}
+			});
+		});
+	})
+	</script>
+	<!-- END Select 2 -->
+	<script src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-daterangepicker/3.0.5/daterangepicker.min.js"></script>
+	<script type="text/javascript">
+	$('input[name="purchase_date"]').daterangepicker({
+		singleDatePicker: true,
+		autoUpdateInput: false,
+		locale: {
+			cancelLabel: 'Clear'
+		}
+	});
+	$('input[name="purchase_date"]').on('apply.daterangepicker', function(ev, picker) {
+		$(this).val(picker.startDate.format('MM/DD/YYYY'));
+	});
+
+	$('input[name="purchase_date"]').on('cancel.daterangepicker', function(ev, picker) {
+		$(this).val('');
+	});
+	</script>
+	<script src="js/main.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-23581568-13');
+	</script>
+	<!-- End Scripts -->
+
+
+</body>
+</html>
